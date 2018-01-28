@@ -1,0 +1,33 @@
+Presentation outline:
+
+- design pattern introduce
+  - singleton: writefactory, componentcreator, manageStoreRecord ?
+  - factory design pattern: user?
+
+- code smell fixed
+    -
+
+
+
+
+
+
+
+
+singleton class makes sure there is only one instance of the class exists in this whole system.
+this is mainly used in our project for logging, generating reports and creating components like tree and table(refer to the code here)
+        - Private constructor to restrict instantiation of the class from other classes.
+        - Private static variable of the same class: the only instance of the class.
+        - Public static method that returns the instance of the class: for outer world to get the instance of the singleton class.
+
+
+Factory Design Pattern Advantages
+
+        - Factory design pattern provides approach to code for interface rather than implementation.
+        - Factory pattern removes the instantiation of actual implementation classes from client code. Factory pattern makes our code more robust, less coupled and easy to extend. For example, we can easily change PC class implementation because client program is unaware of this.
+        - Factory pattern provides abstraction between implementation and client classes through inheritance.
+
+
+for phase two, we have improved the design of our project by adding factory design pattern to two of our class: they are writefactory and component creater.
+writefactory class is used to write sale report, order report, and log report, component creater class is used to create jtable and jtree in our uer interface.
+these classes have static method to be called without initiatation. factory design allows

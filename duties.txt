@@ -1,0 +1,22 @@
+Han Zhang:
+- designing UML for the entire project
+- writing most of the javadocs for the project
+- testing class shop simulation and handle event
+- debugging for class paylist and handleevent.
+Jiayan Wang:
+- contributing in entire project design
+- designing log and event
+- focusing most on class handleevent and product
+- running and testing entire project
+- apply serialization to project
+Mingren Chen:
+- create framework for the entire project
+- responsible for entire project design
+- writing class handleevent, operationfailedexception,discount,allitems and shop simulation
+- debugging for entire project
+- apply serialization to project and create inventory
+Yiyi Cheng:
+- contributing in entire project design
+- responsible for class user, manager, receiver, reshelver and cashier
+- writer for help.txt and duties.txt
+- debugging for handleevent and shopsimulation
